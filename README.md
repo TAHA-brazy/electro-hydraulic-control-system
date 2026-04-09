@@ -8,7 +8,9 @@ This project focuses on the design, identification, and control of an electro-hy
 
 🔌 Hardware & Driving Circuit
 
-A custom driving circuit was designed to operate the electro-hydraulic system, which includes a pump, pressure valve, directional valve, and hydraulic actuator.
+A custom driving circuit was designed to operate the electro-hydraulic system, which includes a pump (supply unit), pressure valve, directional valve (control unit), and hydraulic actuator.
+
+![Hydrulic_System](images/Hydrulic_System.png)
 
 The system was controlled using:
 
@@ -20,17 +22,46 @@ The system was controlled using:
 
 4-Position feedback via potentiometer.
 
+The general driving circuit dieagram:
+
+![drivining_circuit_diagram](images/drivining_circuit_diagram.png)
+
+The electronic driving circuit dieagram:
+
+![drivining_circuit_diagram2](images/drivining_circuit_diagram2.png)
+
+The real driving circuit:
+
+![real_driving_circuit](images/real_driving_circuit.png)
+
 🔬 System Identification
 
 An experimental identification procedure was conducted to obtain a linear model of the system:
 
 1-Closed-loop identification using PRBS excitation.
 
+![closed_loop](images/closed_loop.png)
+
+  - The identification procedure box diagram:
+
+    ![Identification_diagram](images/Identification_diagram.png)
+
 2-Data acquisition via Arduino and MATLAB.
+
+![Identification_procedure](images/Identification_procedure.png)
 
 3-Model estimation using MATLAB System Identification Toolbox.
 
+![Identification_Toolbox](images/Identification_Toolbox.png)
+
 4-Achieved model accuracy of approximately 86% fit.
+
+![es_result](images/es_result.png)
+
+
+-The real work environment:
+
+![real_work_environment](images/real_work_environment.png)
 
 ⚙️ Control Design
 
