@@ -48,11 +48,11 @@ An experimental identification procedure was conducted to obtain a linear model 
 
 2- Data acquisition via Arduino and MATLAB.
 
-![Identification_procedure](images/Identification_procedure.png)
+![Identification_procedure](images/Identification_procedure.PNG)
 
 3- Model estimation using MATLAB System Identification Toolbox.
 
-![Identification_Toolbox](images/Identification_Toolbox.PNG)
+![Identification_Toolbox](images/Identification_Toolbox.png)
 
 4- Achieved model accuracy of approximately 86% fit.
 
