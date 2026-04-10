@@ -42,13 +42,13 @@ An experimental identification procedure was conducted to obtain a linear model 
 
 ![closed_loop](images/closed_loop.PNG)
 
-  - The identification procedure box diagram:
+  - The identification procedure box-diagram:
 
     ![Identification_diagram](images/Identification_diagram.PNG)
 
 2-Data acquisition via Arduino and MATLAB.
 
-![Identification_procedure](images/Identification_procedure.PNG)
+![Identification_procedure](images/Identification_procedure.png)
 
 3-Model estimation using MATLAB System Identification Toolbox.
 
@@ -56,12 +56,12 @@ An experimental identification procedure was conducted to obtain a linear model 
 
 4-Achieved model accuracy of approximately 86% fit.
 
-![es_result](images/es_result.png)
+![es_result](images/es_result.PNG)
 
 
 -The real work environment:
 
-![real_work_environment](images/real_work_environment.png)
+![real_work_environment](images/real_work_environment.PNG)
 
 ⚙️ System Modeling
 
@@ -74,7 +74,7 @@ To simplify the model and improve simulation accuracy, several practical approxi
 
 3-A constant offset was added to the input signal to compensate for the dead zone and ensure proper system response
 
-![simulink](images/simulink.png)
+![simulink](images/simulink.PNG)
 
 These modifications allowed for a more realistic representation of the system while maintaining a manageable model for control design.
 
@@ -90,7 +90,7 @@ A phase-lead controller was designed to meet specific performance requirements:
 
 The controller parameters were determined using Bode diagram analysis and validated through simulation in Simulink.
 
-![controller](images/controller.png)
+![controller](images/controller.PNG)
 
 📈 Frequency and Stability Analysis
 
