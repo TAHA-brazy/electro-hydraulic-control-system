@@ -196,7 +196,7 @@ Selection of input signal type:
     
   - Connection control
  
-![closed_loop_intr](images/closed_loop-intr.PNG)
+![closed_loop_intr](images/closed_loop_intr.PNG)
 
 The interface enables intuitive interaction with the system and facilitates both testing and evaluation of control performance.
 
