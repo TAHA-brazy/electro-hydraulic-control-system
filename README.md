@@ -14,23 +14,23 @@ A custom driving circuit was designed to operate the electro-hydraulic system, w
 
 The system was controlled using:
 
-1-Arduino microcontroller.
+1- Arduino microcontroller.
 
-2-BTS7960 motor drivers (for valve actuation).
+2- BTS7960 motor drivers (for valve actuation).
 
-3-Signal conditioning circuits (low-pass filter, level shifter, anti-aliasing filter).
+3- Signal conditioning circuits (low-pass filter, level shifter, anti-aliasing filter).
 
-4-Position feedback via potentiometer.
+4- Position feedback via potentiometer.
 
-The general driving circuit dieagram:
+- The general driving circuit dieagram:
 
 ![driving_ciruit_diagram](images/driving_ciruit_diagram.png)
 
-The electronic driving circuit dieagram:
+- The electronic driving circuit dieagram:
 
 ![driving_circuit_diagram2](images/driving_circuit_diagram2.png)
 
-The real driving circuit:
+- The real driving circuit during testing:
 
 ![real_driving_circuit](images/real_driving_circuit.png)
 
@@ -38,7 +38,7 @@ The real driving circuit:
 
 An experimental identification procedure was conducted to obtain a linear model of the system:
 
-1-Closed-loop identification using PRBS excitation.
+1- Closed-loop identification using PRBS excitation.
 
 ![closed_loop](images/closed_loop.PNG)
 
@@ -46,22 +46,22 @@ An experimental identification procedure was conducted to obtain a linear model 
 
     ![Identification_diagram](images/Identification_diagram.PNG)
 
-2-Data acquisition via Arduino and MATLAB.
+2- Data acquisition via Arduino and MATLAB.
 
 ![Identification_procedure](images/Identification_procedure.png)
 
-3-Model estimation using MATLAB System Identification Toolbox.
+3- Model estimation using MATLAB System Identification Toolbox.
 
 ![Identification_Toolbox](images/Identification_Toolbox.PNG)
 
-4-Achieved model accuracy of approximately 86% fit.
+4- Achieved model accuracy of approximately 86% fit.
 
 ![es_result](images/es_result.PNG)
 
 
--The real work environment:
+- The real work-environment in the control laboratory at HIAST:
 
-![real_work_environment](images/real_work_environment.PNG)
+![real_work_environment](images/real_work_environment.jpg)
 
 ⚙️ System Modeling
 
@@ -127,7 +127,7 @@ The controller successfully satisfies the design specifications:
 The designed controller was implemented on the real system to validate its performance.
 The continuous-time controller and plant model were discretized using the Tustin method and implemented on the Arduino for real-time control.
 
-![diff_eq](images/diff_eq.png)
+![diff_eq](images/diff_eq.PNG)
 
 After implementation, several experiments and tuning steps were performed to achieve the desired performance.
 
@@ -162,7 +162,7 @@ The interface provides two operating modes:
 
 - Speed control using an adjustable input
 
-![open_loop](images/open_loop.png)
+![open_loop](images/open_loop.PNG)
 
 🔁 Closed-Loop Mode
 
@@ -196,7 +196,7 @@ Selection of input signal type:
     
   - Connection control
  
-![closed_loop](images/closed_loop.png)
+![closed_loop_intr](images/closed_loop-intr.PNG)
 
 The interface enables intuitive interaction with the system and facilitates both testing and evaluation of control performance.
 
