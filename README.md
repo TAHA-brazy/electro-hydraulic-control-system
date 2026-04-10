@@ -90,18 +90,52 @@ A phase-lead controller was designed to meet specific performance requirements:
 
 The controller parameters were determined using Bode diagram analysis and validated through simulation in Simulink.
 
+![controller](images/controller.png)
 
+📈 Frequency and Stability Analysis
 
+The system behavior was analyzed using frequency and root locus methods to design and validate the controller.
 
-💻 Implementation Files
+-Bode Diagram:
 
-1-Arduino code for real-time control
+![bode1](images/bode1.png)
 
-2-MATLAB scripts for identification and simulation
+The Bode plots show improved phase margin and system bandwidth after applying the phase-lead controller.
 
-3-MATLAB App Designer interface for system control
+-Root Locus:
 
-📊 Experimental Results
+![root_locus](images/root_locus.png)
+
+The root locus demonstrates the shift of system poles to more stable locations, resulting in improved dynamic response and stability.
+
+📊 Simulation Results
+
+Step Response Before (untitled1) and after (untitled2) Control:
+
+![sim_step](images/sim_step.png)
+
+The controller successfully satisfies the design specifications:
+
+1-Overshoot < 4%
+
+2-Settling time < 2 seconds
+
+3-Zero steady-state error
+
+🧪 Experimental Validation
+
+The designed controller was implemented on the real system to validate its performance.
+The continuous-time controller and plant model were discretized using the Tustin method and implemented on the Arduino for real-time control.
+
+![diff_eq](images/diff_eq.png)
+
+After implementation, several experiments and tuning steps were performed to achieve the desired performance.
+
+Experimental Step Response Before and after Control:
+
+![real_step](images/real_step.png)
+
+The experimental results confirm the effectiveness of the controller. The system shows a significant improvement in dynamic performance, including faster response (Settling time < 2 seconds), elimination of overshoot (Overshoot < 4%), and zero steady-state error, meeting the design requirements.
 
 The controller significantly improved system performance:
 
@@ -115,6 +149,67 @@ The controller significantly improved system performance:
 
 5-Steady-state error: reduced to 0%
 
+🖥️ User Interface
+
+A graphical user interface (GUI) was developed using MATLAB App Designer to simplify system operation and testing.
+The interface provides two operating modes:
+
+🔄 Open-Loop Mode
+
+- Manual control of actuator motion
+
+- Direction selection (forward / backward)
+
+- Speed control using an adjustable input
+
+![open_loop](images/open_loop.png)
+
+🔁 Closed-Loop Mode
+
+Selection of input signal type:
+
+- Step
+  
+- Sinusoidal
+  
+- Square wave
+  
+- Adjustable reference position within the operating range (20–50 mm)
+  
+- For sinusoidal input:
+  
+  - Frequency control (1–3 Hz)
+    
+  - Amplitude adjustment (0–15 mm)
+    
+📡 Monitoring & Control
+
+- Real-time visualization of piston position using a graphical indicator
+  
+- Start/stop control for system operation
+  
+- Serial communication settings:
+  
+  - Port selection
+    
+  - Baud rate configuration
+    
+  - Connection control
+ 
+![closed_loop](images/closed_loop.png)
+
+The interface enables intuitive interaction with the system and facilitates both testing and evaluation of control performance.
+
+💻 Implementation Files
+
+Arduino control code:
+
+View Arduino Code
+
+MATLAB App Designer interface:
+
+View GUI Application
+
 🏫 Academic Contribution
 
 This project has been officially archived at the Higher Institute for Applied Science and Technology (HIAST) and is used as a reference for teaching and research purposes.
@@ -122,3 +217,4 @@ This project has been officially archived at the Higher Institute for Applied Sc
 🧠 Conclusion
 
 The project demonstrates a complete control engineering workflow, from hardware design and system identification to controller implementation and validation. The results confirm the effectiveness of the proposed approach in achieving accurate and reliable position control.
+
