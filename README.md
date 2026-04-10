@@ -63,6 +63,21 @@ An experimental identification procedure was conducted to obtain a linear model 
 
 ![real_work_environment](images/real_work_environment.png)
 
+⚙️ System Modeling
+
+A dynamic model of the electro-hydraulic system was developed in Simulink based on the identified system behavior.
+To simplify the model and improve simulation accuracy, several practical approximations were introduced:
+
+1-The system delay was approximated by an equivalent pole to simplify analysis
+
+2-Nonlinear effects, such as the dead zone, were modeled explicitly
+
+3-A constant offset was added to the input signal to compensate for the dead zone and ensure proper system response
+
+![simulink](images/simulink.png)
+
+These modifications allowed for a more realistic representation of the system while maintaining a manageable model for control design.
+
 ⚙️ Control Design
 
 A phase-lead controller was designed to meet specific performance requirements:
@@ -74,6 +89,9 @@ A phase-lead controller was designed to meet specific performance requirements:
 3-Zero steady-state error
 
 The controller parameters were determined using Bode diagram analysis and validated through simulation in Simulink.
+
+
+
 
 💻 Implementation Files
 
