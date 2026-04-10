@@ -24,11 +24,11 @@ The system was controlled using:
 
 The general driving circuit dieagram:
 
-![drivining_circuit_diagram](images/drivining_circuit_diagram.PNG)
+![driving_ciruit_diagram](images/driving_ciruit_diagram.png)
 
 The electronic driving circuit dieagram:
 
-![drivining_circuit_diagram2](images/drivining_circuit_diagram2.PNG)
+![driving_circuit_diagram2](images/driving_circuit_diagram2.png)
 
 The real driving circuit:
 
