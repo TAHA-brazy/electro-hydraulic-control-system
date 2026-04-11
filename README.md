@@ -222,6 +222,6 @@ The project demonstrates a complete control engineering workflow, from hardware 
 
 A detailed version of this project is available in Arabic and has been officially archived at the Higher Institute for Applied Science and Technology (HIAST).
 
-👉 [Download Full Report (Arabic)](report_ac.pdf)
+👉 [Download Full Report (Arabic)](report_ar.pdf)
 
 👉 An English summary will be provided soon.
