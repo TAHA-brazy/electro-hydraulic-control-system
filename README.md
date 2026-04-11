@@ -68,11 +68,11 @@ An experimental identification procedure was conducted to obtain a linear model 
 A dynamic model of the electro-hydraulic system was developed in Simulink based on the identified system behavior.
 To simplify the model and improve simulation accuracy, several practical approximations were introduced:
 
-1-The system delay was approximated by an equivalent pole to simplify analysis
+1- The system delay was approximated by an equivalent pole to simplify analysis
 
-2-Nonlinear effects, such as the dead zone, were modeled explicitly
+2- Nonlinear effects, such as the dead zone, were modeled explicitly
 
-3-A constant offset was added to the input signal to compensate for the dead zone and ensure proper system response
+3- A constant offset was added to the input signal to compensate for the dead zone and ensure proper system response
 
 ![simulink](images/simulink.PNG)
 
@@ -82,11 +82,11 @@ These modifications allowed for a more realistic representation of the system wh
 
 A phase-lead controller was designed to meet specific performance requirements:
 
-1-Overshoot < 4%
+1- Overshoot < 4%
 
-2-Settling time < 2 seconds
+2- Settling time < 2 seconds
 
-3-Zero steady-state error
+3- Zero steady-state error
 
 The controller parameters were determined using Bode diagram analysis and validated through simulation in Simulink.
 
@@ -96,13 +96,13 @@ The controller parameters were determined using Bode diagram analysis and valida
 
 The system behavior was analyzed using frequency and root locus methods to design and validate the controller.
 
--Bode Diagram:
+- Bode Diagram:
 
 ![bode1](images/bode1.png)
 
 The Bode plots show improved phase margin and system bandwidth after applying the phase-lead controller.
 
--Root Locus:
+- Root Locus:
 
 ![root_locus](images/root_locus.png)
 
@@ -116,11 +116,11 @@ Step Response Before (untitled1) and after (untitled2) Control:
 
 The controller successfully satisfies the design specifications:
 
-1-Overshoot < 4%
+1- Overshoot < 4%
 
-2-Settling time < 2 seconds
+2- Settling time < 2 seconds
 
-3-Zero steady-state error
+3- Zero steady-state error
 
 🧪 Experimental Validation
 
@@ -139,15 +139,15 @@ The experimental results confirm the effectiveness of the controller. The system
 
 The controller significantly improved system performance:
 
-1-Overshoot: reduced to 0%
+1- Overshoot: reduced to 0%
 
-2-Time constant: improved by 59%
+2- Time constant: improved by 59%
 
-3-Delay time: improved by 60%
+3- Delay time: improved by 60%
 
-4-Settling time: improved by 68%
+4- Settling time: improved by 68%
 
-5-Steady-state error: reduced to 0%
+5- Steady-state error: reduced to 0%
 
 🖥️ User Interface
 
