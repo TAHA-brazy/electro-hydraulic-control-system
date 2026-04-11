@@ -204,7 +204,7 @@ The interface enables intuitive interaction with the system and facilitates both
 
 Arduino control code:
 
-View Arduino Code
+View Arduino Codea (rduino/control_code.ino)
 
 MATLAB App Designer interface:
 
