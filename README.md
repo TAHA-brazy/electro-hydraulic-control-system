@@ -200,15 +200,15 @@ Selection of input signal type:
 
 The interface enables intuitive interaction with the system and facilitates both testing and evaluation of control performance.
 
-💻 Implementation Files
+💻 Implementation Files  
 
-Arduino control code:
+- Arduino control code:
+  
+  [View Arduino Code](arduino/control_code.ino)
 
-View Arduino Codea (rduino/control_code.ino)
-
-MATLAB App Designer interface:
-
-View GUI Application
+- MATLAB GUI application:
+  
+  [View GUI Application](matlab/gui_app.mlapp)
 
 🏫 Academic Contribution
 
