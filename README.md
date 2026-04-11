@@ -17,6 +17,7 @@ This project focuses on the design, identification, and control of an electro-hy
 - Handling nonlinearities (dead zone and delay approximation)
   
 - Development of MATLAB-based GUI for system control
+-------------------------------------------------------------------
 
 🔌 Hardware & Driving Circuit
 
