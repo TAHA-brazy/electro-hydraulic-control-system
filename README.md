@@ -6,6 +6,18 @@
 
 This project focuses on the design, identification, and control of an electro-hydraulic actuator system, combining hardware development, system modeling, and real-time control implementation.
 
+🔍 Key Contributions
+
+- Design and implementation of electro-hydraulic control system
+  
+- Experimental system identification using PRBS signals
+  
+- Phase-lead controller design and real-time implementation
+  
+- Handling nonlinearities (dead zone and delay approximation)
+  
+- Development of MATLAB-based GUI for system control
+
 🔌 Hardware & Driving Circuit
 
 A custom driving circuit was designed to operate the electro-hydraulic system, which includes a pump (supply unit), pressure valve, directional valve (control unit), and hydraulic actuator.
