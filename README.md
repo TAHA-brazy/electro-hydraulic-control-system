@@ -208,7 +208,7 @@ The interface enables intuitive interaction with the system and facilitates both
 
 - MATLAB GUI application:
   
-  [View GUI Application](matlab/gui_app.mlapp)
+  [Download GUI Application](matlab/gui_app.mlapp)
 
 🏫 Academic Contribution
 
@@ -218,3 +218,10 @@ This project has been officially archived at the Higher Institute for Applied Sc
 
 The project demonstrates a complete control engineering workflow, from hardware design and system identification to controller implementation and validation. The results confirm the effectiveness of the proposed approach in achieving accurate and reliable position control.
 
+📄 Full Report
+
+A detailed version of this project is available in Arabic and has been officially archived at the Higher Institute for Applied Science and Technology (HIAST).
+
+👉 [Download Full Report (Arabic)](report_ac.pdf)
+
+👉 An English summary will be provided soon.
