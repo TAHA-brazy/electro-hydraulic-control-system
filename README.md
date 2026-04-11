@@ -225,3 +225,5 @@ A detailed version of this project is available in Arabic and has been officiall
 👉 [Download Full Report (Arabic)](report_ar.pdf)
 
 👉 An English summary will be provided soon.
+
+👉 Developed as part of my undergraduate studies in Aeronautical Engineering.
